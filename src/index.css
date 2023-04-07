@@ -5,8 +5,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /*background-color: #000000;*/
   background-image: url("bg.jpg");
-  background-size: 100%;
-  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-device-width: 400px) {
+  body {
+    background-image: url('bg-c.jpg');
+    background-size: cover;
+  }
 }
 
 code {
